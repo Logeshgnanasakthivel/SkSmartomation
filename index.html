@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SK Smartomation — Smart Homes, Home Theater &amp; Audio, Smart Lighting</title>
+<meta name="description" content="SK Smartomation designs and installs home theaters, whole-home audio, smart lighting, LED walls and smart security — turning ordinary rooms into immersive smart homes." />
+
+<link rel="icon" href="assets/images/logo/logo-mark.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+<!-- ================= PRELOADER ================= -->
+<div id="preloader">
+  <img class="preloader-mark" src="assets/images/logo/logo-mark.svg" alt="" />
+  <span class="preloader-label">SK Smartomation</span>
+</div>
+
+<!-- thin gold line across the top that fills in as you scroll the whole page -->
+<div class="scroll-progress"><div class="scroll-progress-fill" id="scrollProgressFill"></div></div>
+
+<!-- decorative flowing line drawn behind the whole page -->
+<div class="page-line-wrap">
+  <svg width="100%" height="100%" preserveAspectRatio="none" style="position:absolute; inset:0;">
+    <path id="pageLinePath" class="page-line" d="" />
+  </svg>
+</div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="siteNav">
+  <div class="container">
+    <a href="#home" class="nav-brand">
+      <img src="assets/images/logo/logo-mark.svg" alt="SK Smartomation logo" />
+      <span class="nav-brand-text"><strong>SK Smartomation</strong><span>Smart Homes</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks"></nav>
+    <div style="display:flex; align-items:center; gap:22px;">
+      <a href="#contact" class="btn nav-cta">Get a Quote <span class="arrow">→</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= HERO / ROOM SCENE ================= -->
+  <section id="home" class="hero-pin-wrap">
+    <div class="hero-stage" id="heroStage">
+
+      <div class="room-scene" id="roomScene">
+        <img id="layer-base"      class="room-layer" src="assets/images/room/room-base.svg" alt="" />
+        <img id="layer-floor-glow" class="room-layer" src="assets/images/room/floor-glow.svg" alt="" />
+        <img id="layer-ceiling"   class="room-layer" src="assets/images/room/ceiling-lights.svg" alt="" />
+        <img id="layer-screen"    class="room-layer" src="assets/images/room/screen.svg" alt="" />
+        <img id="layer-speaker-l" class="room-layer" src="assets/images/room/speaker-left.svg" alt="" />
+        <img id="layer-speaker-r" class="room-layer" src="assets/images/room/speaker-right.svg" alt="" />
+      </div>
+
+      <div class="hero-copy">
+        <span class="eyebrow" id="heroEyebrow"></span>
+
+        <div class="stage-caption">
+          <div class="stage-sweep" id="stageSweep"></div>
+          <span class="stage-kicker" id="stageKicker"></span>
+          <h1 class="hero-title" id="stageTitleWrap"></h1>
+          <p class="hero-sub" id="stageSub"></p>
+        </div>
+
+        <a href="#contact" class="btn" id="heroCta"></a>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <span id="heroScrollHint"></span>
+        <div class="mouse"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATS BAND =================
+       A standalone, solid-white full-width strip between the dark hero and
+       the About section — a clean break from the dark room animation with
+       the same 4 numbers from content/about.js (edit them there). -->
+  <section class="stats-band">
+    <div class="container">
+      <div class="stats-row stats-row--band" id="statsRow"></div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section">
+    <div class="container">
+      <svg class="doodle doodle--lg doodle-spin" style="top:-40px; left:-30px;" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1" fill="none"/><circle cx="50" cy="50" r="30" stroke="currentColor" stroke-width="1" fill="none" stroke-dasharray="4 6"/></svg>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <span class="eyebrow" id="aboutEyebrow"></span>
+          <h2 id="aboutHeading"></h2>
+          <p id="aboutParagraph"></p>
+        </div>
+
+        <div class="about-visual reveal-scale">
+          <div class="about-visual-ring"></div>
+          <svg class="doodle doodle--md" style="top:14%; left:12%; opacity:0.5;" viewBox="0 0 100 120"><g stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"><circle cx="50" cy="46" r="28"/><path d="M38 70 h24 M40 78 h20 M44 86 h12"/></g></svg>
+          <svg class="doodle doodle--sm" style="bottom:12%; right:14%; opacity:0.55;" viewBox="0 0 120 80"><g class="doodle-pulse-bars" stroke="currentColor" stroke-width="4" stroke-linecap="round"><line x1="10" y1="60" x2="10" y2="30"/><line x1="30" y1="70" x2="30" y2="10"/><line x1="50" y1="65" x2="50" y2="22"/><line x1="70" y1="70" x2="70" y2="15"/><line x1="90" y1="60" x2="90" y2="32"/><line x1="110" y1="66" x2="110" y2="24"/></g></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section id="services" class="section section--tight">
+    <div class="container">
+      <svg class="doodle doodle--md doodle-float" style="top:20px; right:-10px;" viewBox="0 0 100 80"><g stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"><path d="M14 34 C 34 10, 66 10, 86 34" opacity="0.4"/><path d="M26 46 C 40 30, 60 30, 74 46" opacity="0.7"/><path d="M38 58 C 44 51, 56 51, 62 58"/></g><circle cx="50" cy="68" r="4" fill="currentColor"/></svg>
+
+      <div class="section-head reveal">
+        <span class="eyebrow" id="servicesEyebrow" style="justify-content:center;"></span>
+        <h2>What We Install</h2>
+        <p>Every system designed around one goal — an immersive audio, visual and lighting experience in your own home.</p>
+      </div>
+
+      <div class="services-grid" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow" id="processEyebrow" style="justify-content:center;"></span>
+        <h2 id="processHeading"></h2>
+      </div>
+
+      <div class="process-wrap">
+        <div class="process-line"><div class="process-line-fill" id="processLineFill"></div></div>
+        <div class="process-steps" id="processSteps"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      <svg class="doodle doodle--lg doodle-float" style="bottom:-20px; left:-40px;" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><circle cx="50" cy="50" r="26" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><circle cx="50" cy="50" r="3" fill="currentColor"/><line x1="50" y1="50" x2="86" y2="18" stroke="currentColor" stroke-width="2"/><circle cx="86" cy="18" r="5" stroke="currentColor" stroke-width="2"/></svg>
+
+      <div class="projects-header">
+        <div class="section-head reveal" style="text-align:left; margin:0;">
+          <span class="eyebrow" id="projectsEyebrow"></span>
+          <h2>Our Projects</h2>
+          <p>A selection of the smart homes, theaters and spaces we've brought to life.</p>
+        </div>
+        <div class="projects-counter reveal">
+          <div class="num" id="projectsCount">0</div>
+          <div class="lbl">Projects Completed</div>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= CLIENTS ================= -->
+  <section class="clients-strip">
+    <div class="container">
+      <span class="eyebrow" style="justify-content:center;">Who We Work With</span>
+      <h2 class="clients-heading">Trusted by builders, institutions &amp; brands</h2>
+    </div>
+    <div class="clients-marquee">
+      <div class="marquee-track" id="marqueeTrack"></div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section cta-section">
+    <div class="container">
+      <svg class="doodle doodle--md doodle-float" style="top:10px; left:8%;" viewBox="0 0 100 120"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="50" cy="46" r="28"/><path d="M38 70 h24 M40 78 h20 M44 86 h12"/><path d="M50 4 v10 M18 18 l7 7 M82 18 l-7 7 M8 46 h10 M92 46 h-10" opacity="0.7"/></g></svg>
+      <svg class="doodle doodle--sm doodle-spin" style="bottom:0; right:10%;" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1"/><circle cx="50" cy="50" r="14" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="50" r="3" fill="currentColor"/><line x1="50" y1="50" x2="86" y2="18" stroke="currentColor" stroke-width="2"/></svg>
+
+      <span class="eyebrow reveal" id="ctaEyebrow" style="justify-content:center;"></span>
+      <h2 class="reveal" id="ctaHeading"></h2>
+      <p class="reveal" id="ctaSub" style="max-width:520px; margin:0 auto;"></p>
+      <a href="#contact" class="btn reveal" id="ctaBtn"></a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER / CONTACT ================= -->
+<footer class="site-footer" id="contact">
+  <svg class="doodle doodle--lg doodle-float" style="top:20px; right:4%; opacity:0.12;" viewBox="0 0 240 60"><path d="M0 30 C 10 30, 10 10, 20 10 C 30 10, 30 50, 40 50 C 50 50, 50 5, 60 5 C 70 5, 70 55, 80 55 C 90 55, 90 20, 100 20 C 110 20, 110 40, 120 40 C 130 40, 130 12, 140 12 C 150 12, 150 48, 160 48 C 170 48, 170 30, 180 30 C 190 30, 190 8, 200 8 C 210 8, 210 52, 220 52 C 228 52, 230 30, 240 30" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"/></svg>
+
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <img src="assets/images/logo/logo-mark.svg" alt="SK Smartomation logo" />
+          <strong>SK Smartomation</strong>
+        </div>
+        <p id="footerAbout" style="max-width:280px;"></p>
+        <div class="footer-social" id="footerSocial"></div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <div id="footerNav"></div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a id="footerEmail" href="#"></a>
+        <a id="footerPhone" href="#"></a>
+        <p id="footerAddress"></p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Find Us</h4>
+        <div class="footer-map">
+          <iframe id="footerMap" src="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="SK Smartomation location on Google Maps"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span id="footerCopyright"></span>
+      <span>Designed for immersive living.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= PROJECT MODAL ================= -->
+<div class="modal-overlay" id="projectModal">
+  <div class="modal-panel">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-gallery" id="modalGallery"></div>
+    <span class="modal-cat" id="modalCat"></span>
+    <h3 id="modalTitle"></h3>
+    <p class="modal-desc" id="modalDesc"></p>
+    <div class="modal-tags" id="modalTags"></div>
+  </div>
+</div>
+
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+
+<!-- All editable site text/contact/projects lives in /content/ — one file
+     per section, so it's easy to find exactly what you want to change. -->
+<script src="content/company.js?v=11"></script>
+<script src="content/hero.js?v=11"></script>
+<script src="content/about.js?v=11"></script>
+<script src="content/services.js?v=11"></script>
+<script src="content/process.js?v=11"></script>
+<script src="content/projects.js?v=11"></script>
+<script src="content/clients.js?v=11"></script>
+<script src="content/contact.js?v=11"></script>
+
+<script src="js/main.js?v=11"></script>
+<script src="js/protect.js?v=11"></script>
+</body>
+</html>

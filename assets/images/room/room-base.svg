@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" fill="none">
+  <!-- back wall -->
+  <rect x="40" y="30" width="920" height="440" rx="4" stroke="#c9a24b" stroke-width="2" opacity="0.55"/>
+  <!-- floor -->
+  <line x1="20" y1="470" x2="980" y2="470" stroke="#c9a24b" stroke-width="2" opacity="0.55"/>
+  <ellipse cx="500" cy="562" rx="230" ry="28" stroke="#c9a24b" stroke-width="1.2" opacity="0.14"/>
+  <!-- window -->
+  <rect x="110" y="90" width="150" height="190" rx="4" stroke="#c9a24b" stroke-width="1.5" opacity="0.4"/>
+  <line x1="185" y1="90" x2="185" y2="280" stroke="#c9a24b" stroke-width="1" opacity="0.35"/>
+  <line x1="110" y1="185" x2="260" y2="185" stroke="#c9a24b" stroke-width="1" opacity="0.35"/>
+  <!-- media console -->
+  <rect x="410" y="420" width="180" height="50" rx="5" stroke="#c9a24b" stroke-width="1.8" opacity="0.5"/>
+  <line x1="424" y1="470" x2="424" y2="486" stroke="#c9a24b" stroke-width="1.8" opacity="0.5"/>
+  <line x1="576" y1="470" x2="576" y2="486" stroke="#c9a24b" stroke-width="1.8" opacity="0.5"/>
+  <!-- plant corner -->
+  <g opacity="0.4" stroke="#c9a24b" stroke-width="1.5">
+    <path d="M860 470 c 0 -40 -30 -50 -30 -80 M860 470 c 0 -50 30 -60 30 -95 M860 470 c 0 -55 5 -70 5 -105"/>
+    <path d="M840 470 h 40 l -6 30 h -28 z"/>
+  </g>
+  <!-- skirting -->
+  <line x1="40" y1="470" x2="40" y2="30" stroke="#c9a24b" stroke-width="2" opacity="0.55"/>
+  <line x1="960" y1="470" x2="960" y2="30" stroke="#c9a24b" stroke-width="2" opacity="0.55"/>
+</svg>

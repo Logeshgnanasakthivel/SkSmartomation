@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" fill="none">
+  <defs>
+    <radialGradient id="spkGlowR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8cd8a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e8cd8a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="850" cy="400" rx="90" ry="90" fill="url(#spkGlowR)"/>
+  <rect x="825" y="300" width="60" height="170" rx="8" stroke="#e8cd8a" stroke-width="2"/>
+  <circle cx="855" cy="335" r="15" stroke="#e8cd8a" stroke-width="1.8"/>
+  <circle cx="855" cy="335" r="6" stroke="#e8cd8a" stroke-width="1.2"/>
+  <circle cx="855" cy="410" r="22" stroke="#e8cd8a" stroke-width="1.8"/>
+  <circle cx="855" cy="410" r="12" stroke="#e8cd8a" stroke-width="1.2"/>
+  <circle cx="855" cy="410" r="4" fill="#e8cd8a"/>
+</svg>

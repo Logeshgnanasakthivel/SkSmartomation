@@ -1,0 +1,1 @@
+!function(){"use strict";document.addEventListener("contextmenu",function(e){e.preventDefault()}),document.addEventListener("keydown",function(e){const t=e.key,n=e.ctrlKey||e.metaKey;"F12"!==t?n&&e.shiftKey&&["I","J","C","i","j","c"].includes(t)?e.preventDefault():!n||"u"!==t&&"U"!==t||e.preventDefault():e.preventDefault()})}();
